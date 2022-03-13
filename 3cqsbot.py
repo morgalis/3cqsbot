@@ -322,3 +322,5 @@ client.start()
 
 if not config['filter'].getboolean('btc_pulse'):
     client.run_until_disconnected()
+
+    
